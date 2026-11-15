@@ -38,7 +38,7 @@ public class BlogController {
     @DeleteMapping("/{id}")
     public String deletePost(@PathVariable int id) {
         posts.remove(id);
-        return "Deleted";
+        return "Deleted!!!";
     }
 
 @GetMapping("/total")
